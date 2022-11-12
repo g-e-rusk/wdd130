@@ -47,7 +47,7 @@ nav, a {
 
 .paragraph1 {
     grid-column: 1/3;
-    grid-row: 2/3;
+    grid-row: 1/3;
     text-align: left;
     margin-left: 75px;
     margin-top: 150px;
