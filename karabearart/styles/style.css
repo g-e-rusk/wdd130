@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap')
+
+
+div {
+    max-width: 1600px;
+}
+
+#content {
+    margin: 0 auto; 
+}
+
+.logo {
+    width: 150px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#gradientbar {
+    background: linear-gradient(#E67B60, #F4F1DE);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 150px;
+    
+
+}
+
+/*nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "David Libre", Times, serif
+}*/
+
+nav, a {
+    text-align: center;
+    padding: 35px;
+    font-family: "David Libre", Times, serif;
+    text-decoration: none;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#hero-box {
+    grid-column: 2 / 3;
+    grid-row: 1/3;
+    width: 300px;
+    height: 300px;
+    margin-top: 500px;;
+}
+
+#hero-img {
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: inline;
+
+}
+
+#hero-msg {
+    font-family: "Patrick Hand";
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: right;
+    z-index: 1;
+    display: inline;
+    }
+
+body {
+    background-color: #F4F1DE;
+    font-size: 22px;
+    font-family: "David Libre", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.msg {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    display: inline;
+}
+
+.aboutme-card, .mycraft-card {
+    margin: 200px 0;
+}
+
+.aboutme-card img {
+    width: 325px;
+    height: 415px;
+    align-self: center;
+    border: 10px solid #008A10;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #182362;
+    border-radius: 1.5em;
+
+}
+
+.aboutme-card img:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.mycraft-card img {
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    border: 10px solid #008A10;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #182362;
+    border-radius: 1.5em;
+}
+
+.mycraft-card img:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.aboutme-card {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 100px;
+    justify-self: left;
+}
+
+.mycraft-card {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-right: 100px;
+    justify-self: right;
+}
+
+
+form {
+    /* Center the form on the page */
+    margin: 75px;
+    width: 350px;
+    height: 350px;
+    /* Form outline */
+    padding: 1em;
+    border: 10px solid #008A10;
+    border-radius: 2em;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: 210px;
+  }
+
+  form h2 {
+    font-family: "Patrick Hand", serif;
+    color:#182362;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 67px;
+    text-align: left;
+    color:#182362;
+    background-color: #E67B60;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em "David Libre", serif;
+      
+    /* Uniform text field size */
+    width: 300px;
+    /*box-sizing: border-box;*/
+    
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: center;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 3.5em;
+  }
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+footer {
+    background-color: #E67B60;
+    color: #F4F1DE;
+    font-family: ABeeZee, Helvetica, sans-serif;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #008A10;
+}
+
+footer p {
+    font-size: .8em;
+}
+
+footer p a:hover {
+    color: #182362;;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
