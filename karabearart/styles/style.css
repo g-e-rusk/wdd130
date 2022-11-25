@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap');
 
 
 div {
@@ -27,55 +27,39 @@ div {
     left: 0;
     width: 100vw;
     height: 150px;
-    
-
+    line-height: 25px;
+    display: inline;
 }
-
-/*nav {
-    display: flex;
-    justify-content: space-around;
-    font-family: "David Libre", Times, serif
-}*/
 
 nav, a {
-    text-align: center;
-    padding: 35px;
+    padding: 50px;
     font-family: "David Libre", Times, serif;
     text-decoration: none;
-}
-
-#hero {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-#hero-box {
-    grid-column: 2 / 3;
-    grid-row: 1/3;
-    width: 300px;
-    height: 300px;
-    margin-top: 500px;;
-}
-
-#hero-img {
-    grid-column: 2 / 3;
-    grid-row: 2/3;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    display: inline;
+    color:#182362;
 
 }
 
-#hero-msg {
+nav {
+    display: flex;
+    align-content: space-around;
+    font-family: "David Libre", Times, serif;
+    justify-content: right;
+    margin-top: -200px;
+    margin-left: 700px;
+    
+}
+
+.brand_name {
     font-family: "Patrick Hand";
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: right;
-    z-index: 1;
     display: inline;
-    }
+    font-size: 48px;
+    display: flex;
+    align-self: center;
+    margin-top: -100px;
+    margin-left: 225px;
+}
+
+
 
 body {
     background-color: #F4F1DE;
@@ -91,17 +75,45 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
-.msg {
-    grid-column: 2/5;
+.profile_logo {
+    grid-column: 2/3;
     grid-row: 1/2;
-    text-align: center;
+    width: 400px;
+    height: 400px;
+    border:5px solid #182362;
+    border-radius: 0.7em;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+
+.msg {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border: 10px solid #E67B60;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 15px;
+    margin: 15px;
+    height: 325px;
+    color:#182362;
     display: inline;
+    margin-top: 215px;
+    width: 600px;
+    margin-bottom: -100px;
+    text-align: center;
+    margin-left: -250px;
 }
 
-.aboutme-card, .mycraft-card {
-    margin: 200px 0;
+.top-left {
+    position: relative;
+    right: 80px;
 }
 
+.bottom-right {
+    position:  relative;
+    left: 150px;
+}
 .aboutme-card img {
     width: 325px;
     height: 415px;
@@ -110,12 +122,13 @@ body {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #182362;
     border-radius: 1.5em;
-
+    margin-left: -250px;
+    margin-top: 60px;
 }
 
 .aboutme-card img:hover {
     opacity: .8;
-    transform: scale(1.1);
+    transform: scale(.7);
 }
 
 .mycraft-card img {
@@ -126,25 +139,25 @@ body {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #182362;
     border-radius: 1.5em;
+    margin-left: -100px;
+    margin-top: 60px;
 }
 
 .mycraft-card img:hover {
     opacity: .8;
-    transform: scale(1.1);
+    transform: scale(.7);
 }
 
 .aboutme-card {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-left: 100px;
-    justify-self: left;
+    justify-self: center;
 }
 
 .mycraft-card {
     grid-column: 4/5;
     grid-row: 2/3;
-    margin-right: 100px;
-    justify-self: right;
+    justify-self: center;
 }
 
 
@@ -159,7 +172,8 @@ form {
     border-radius: 2em;
     grid-column: 3/4;
     grid-row: 2/3;
-    margin-top: 210px;
+    box-shadow: 5px 5px 10px #182362;
+    margin-left: -135px;
   }
 
   form h2 {
@@ -183,7 +197,6 @@ form {
     width: 67px;
     text-align: left;
     color:#182362;
-    background-color: #E67B60;
   }
   
   input,
@@ -242,9 +255,10 @@ form {
 
 
 footer {
-    background-color: #E67B60;
-    color: #F4F1DE;
-    font-family: ABeeZee, Helvetica, sans-serif;
+    background: linear-gradient(#F4F1DE, #E67B60);
+    color: #182362;
+    font-family: "David Libre", Times, serif;
+    font-size: 24px;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -252,21 +266,14 @@ footer {
 }
 
 footer a {
-    color: #F4F1DE;
+    color: #182362;
     text-decoration: none;
 }
 
-footer a:hover {
+footer p a:hover {
     color: #008A10;
 }
 
-footer p {
-    font-size: .8em;
-}
-
-footer p a:hover {
-    color: #182362;;
-}
 
 footer .social img {
     padding-top: 15px;
