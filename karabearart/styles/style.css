@@ -388,6 +388,7 @@ h3 {
     grid-column: 1/2;
     grid-row: 3/4;
     float: left;
+    padding-bottom: 20px;
     
 }
 
@@ -397,7 +398,7 @@ h3 {
     grid-column: 2/3;
     grid-row: 3/4;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .oswald {
@@ -406,7 +407,7 @@ h3 {
     grid-column: 3/4;
     grid-row: 3/4;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .sally {
@@ -415,7 +416,7 @@ h3 {
     grid-column: 4/5;
     grid-row: 3/4;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .phantom {
@@ -424,7 +425,7 @@ h3 {
     grid-column: 5/6;
     grid-row: 3/4;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .girl {
@@ -433,7 +434,7 @@ h3 {
     grid-column: 1/2;
     grid-row: 5/6;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .haunted {
@@ -442,7 +443,7 @@ h3 {
     grid-column: 2/3;
     grid-row: 5/6;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .horse {
@@ -451,7 +452,7 @@ h3 {
     grid-column: 3/4;
     grid-row: 5/6;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .fabric {
@@ -460,7 +461,7 @@ h3 {
     grid-column: 4/5;
     grid-row: 5/6;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .profile {
@@ -469,42 +470,42 @@ h3 {
     grid-column: 5/6;
     grid-row: 5/6;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .bike {
     grid-column: 1/2;
     grid-row: 7/8;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .speaker {
     grid-column: 2/3;
     grid-row: 7/8;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .vase {
     grid-column: 3/4;
     grid-row: 7/8;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .telescope {
     grid-column: 4/5;
     grid-row: 7/8;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .wheel {
     grid-column: 5/6;
     grid-row: 7/8;
     float: left;
-    
+    padding-bottom: 20px;
 }
 
 .three-d {
@@ -513,7 +514,7 @@ h3 {
     float: left;
     padding: 25px;
     margin-top: -50px;
-    
+    padding-bottom: 20px;
 }
 
 .two-d {
@@ -523,6 +524,7 @@ h3 {
     padding: 25px;
     margin-left: 75px;
     margin-top: -50px;
+    padding-bottom: 20px;
 }
 
 .stop {
@@ -532,6 +534,7 @@ h3 {
     padding: 25px;
     margin-left: 75px;
     margin-top: -50px;
+    padding-bottom: 20px;
 }
 
 .mycraft {
